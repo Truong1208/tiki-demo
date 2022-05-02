@@ -1,0 +1,61 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --text-color: #333;
+    --border-color: #dbdbdb;
+}
+
+* {
+    box-sizing: inherit;
+}
+
+html {
+    font-size: 62.5%;
+    line-height: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+.grid.wide {
+    max-width: 1273px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+.grid {
+    width: 100%;
+    display: block;
+    padding: 0;
+}
+.carousel-control-prev {
+    width: 32px;
+}
+.carousel-control-next {
+    width: 32px;
+}
+.carousel-control-prev-icon {
+    background-image: url(https://salt.tikicdn.com/ts/upload/6b/59/c2/b61db5f1c32cfdc6d75e59d4fac2dbe8.png);
+    width: 3rem;
+    height: 5rem;
+    transform: rotate(180deg);
+}
+.carousel-control-next-icon {
+    background-image: url(https://salt.tikicdn.com/ts/upload/6b/59/c2/b61db5f1c32cfdc6d75e59d4fac2dbe8.png);
+    width: 3rem;
+    height: 5rem;
+}
+#carouselExampleIndicators {
+    border-radius: 3px;
+}
+.tam-col {
+    width: 12%;
+    box-sizing: border-box;
+    margin: 0 3.1px 0 3.1px;
+}
+.d-none-item{
+    display: none;
+}
+.__20-col{
+    width: 20%;
+    padding-left: 12px;
+    padding-right: 12px;
+}
